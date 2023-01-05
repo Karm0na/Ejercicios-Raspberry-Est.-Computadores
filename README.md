@@ -2,7 +2,7 @@
 
 Si tienes una Raspberry pi 3, asegurate de que las siguientes lineas de codigo están al principio del programa:
 .text <br>
-  mrs r0, cpsr
+  mrs r0, cpsr <br>
   mov r0, #0b11010011 @Modo SVC, FIQ&IRQ desact
   msr spsr_cxsf, r0
   add r0, pc, #4
