@@ -1,7 +1,7 @@
 # Ejercicios-Raspberry-Est.-Computadores
 
 Si tienes una Raspberry pi 3, asegurate de que las siguientes lineas de codigo están al principio del programa:
-.text
+.text <br>
   mrs r0, cpsr
   mov r0, #0b11010011 @Modo SVC, FIQ&IRQ desact
   msr spsr_cxsf, r0
